@@ -1,5 +1,5 @@
 import time,os
-path = "/Users/apple/同步空间/娃/日期未修正" #待搜索的目录路径
+path = "/Users/apple/..." #待搜索的目录路径
 file_list = os.listdir(path) #遍历path里的所有文件名
 count = len(file_list)
 print(f'文件夹{path}里共有{count}个文件')
